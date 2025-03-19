@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de compras</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/index.css">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
@@ -18,7 +18,35 @@
 
 <body>
 
+    <main>
+        <header>
+            <img src="./assets/logo.png" alt="imagem da logo">
+        </header>
 
+        <fieldset>
+            <div class="back">
+                <img src="assets/icons/arrow-left-02.svg" alt="icone de voltar">
+                <span>Voltar</span>
+            </div>
+
+            <h1>Compras da semana</h1>
+
+            <form>
+                <input type="text" id="new-item" placeholder="Adicione um novo item" required>
+                <button id="add-item" class="button-primary" type="submit">Adicionar item</button>
+            </form>
+
+            <ul></ul>
+
+        </fieldset>
+
+    </main>
+
+    <footer id="alert">
+        <p>
+            O item foi removido da lista
+        </p>
+    </footer>
 
 </body>
 
