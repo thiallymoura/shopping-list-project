@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-primary: #F4F5FB;
+    --background-secondary: #FFFFFF;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+    --font-familly: 'Inter', sans-serif;
+
+    --font-title: 700 1.25rem/2rem var(--font-familly);
+    --font-label: 600 1rem/1.25rem var(--font-familly);
+    --font-paragraph: 500 1rem/1.25rem var(--font-familly);
+    --font-link: 500 .875rem/1rem var(--font-familly);
+
+}
