@@ -15,6 +15,7 @@
     --content-primary: #080B12;
     --content-secondary: #374151;
     --content-tertiary: #9CA3AF;
+    --content-placeholder: #6B6671;
     --always-white: #FFFFFF;
 
     --border-primary: #D1D5DB;
@@ -22,7 +23,7 @@
 
     --font-familly: 'Inter', sans-serif;
 
-    --font-title: 700 1.25rem/2rem var(--font-familly);
+    --font-title: 700 1.5rem/2rem var(--font-familly);
     --font-label: 600 1rem/1.25rem var(--font-familly);
     --font-paragraph: 500 1rem/1.25rem var(--font-familly);
     --font-link: 500 .875rem/1rem var(--font-familly);
