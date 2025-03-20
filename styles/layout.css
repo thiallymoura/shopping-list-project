@@ -92,4 +92,52 @@ main {
         }
     }
 
+    & .items-list {
+        margin-top: 2.5rem;
+        list-style: none;
+
+        & .item {
+            width: 100%;
+            height: 3rem;
+
+            font: var(--font-paragraph);
+            background-color: var(--background-secondary);
+            color: var(--content-primary);
+            border-radius: .750rem;
+            padding-left: 1rem;
+
+        }
+
+        & li {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            margin-bottom: 1rem;
+
+            /* & input[type="checkbox"] {
+                list-style: none;
+                opacity: 0;
+            } */
+
+            & .check {
+                margin-right: .750rem;
+                cursor: pointer;
+            }
+
+            & span {
+                color: var(--content-tertiary);
+            }
+
+            & .delete {
+                margin-left: auto;
+                margin-right: 1rem;
+                border: none;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+
+        }
+    }
+
 }
