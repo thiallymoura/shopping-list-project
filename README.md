@@ -1,7 +1,10 @@
 <h1> 🚀 Desafio prático - App de lista de compras</h1>
 
 <p align="center">
-  <img alt="" src="">
+  <img alt="" src="./assets/imagem1.png">
+  <img alt="" src="./assets/imagem2.png">
+  <img alt="" src="./assets/imagem3.png">
+  <img alt="" src="./assets/imagem4.png">
 </p>
 
 ## ✨ Tecnologias
@@ -18,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - **Adicionar** um item a lista de compras
 - **Remover** um item da lista de compras
 
-## 💡 Objetivo 
+## 💡 Objetivo
 
 Este projeto teve como foco o aprimoramento das habilidades de manipulação da DOM, criação de funções e gerenciamento de eventos no JavaScript.
 
