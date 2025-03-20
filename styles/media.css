@@ -1,0 +1,80 @@
+@media (max-width: 480px) {
+    main {
+        padding: 0 2rem;
+
+        & header {
+            margin-block: 5rem 2rem;
+        }
+
+        & h1 {
+            font-size: 1.75rem;
+            margin-bottom: 4rem;
+        }
+
+        & form {
+            flex-direction: column;
+            gap: 1.5rem;
+
+            & #new-item {
+                width: 100%;
+            }
+
+            & .button-primary {
+                width: 100%;
+                padding: .750rem;
+            }
+        }
+
+        & .items-list {
+            margin-top: 3rem;
+
+            & li {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row;
+                margin-bottom: 1rem;
+
+                & .check {
+                    margin-right: 0.75rem;
+                    width: 1.2rem;
+                }
+
+                & span {
+                    flex-grow: 1;
+                }
+
+                & .delete {
+                    display: flex;
+                    justify-content: center;
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+    & footer {
+        width: 10rem;
+        /* Define a largura fixa para 10rem */
+        margin-top: 2rem;
+        display: flex;
+        padding: 1rem;
+        overflow: hidden;
+
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+
+        footer p {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+}
