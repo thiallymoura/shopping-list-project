@@ -1,8 +1,7 @@
 <h1> 🚀 Desafio prático - App de lista de compras</h1>
 
 <p class="lista-imagens" align="center">
-  <img alt="" src="./assets/imagem1.png" width="815" height="437">  
-  <img alt="" src="./assets/imagem3.png" width="815" height="702">
+  <img alt="" src="./assets/img1.png" width="815" height="437">  
 </p>
 
 ## ✨ Tecnologias
@@ -17,7 +16,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💥 Funcionalidades
 
 - **Adicionar** um item a lista de compras
-- **Remover** um item da lista de compras
+- **Remover** um item da lista de compras (somente se o item estiver selecionado)
+- Impedir o envio de campos de input vazios.
 
 ## 💡 Objetivo
 
