@@ -115,10 +115,6 @@ main {
 
             margin-bottom: 1rem;
 
-            /* & input[type="checkbox"] {
-                list-style: none;
-                opacity: 0;
-            } */
 
             & .check {
                 margin-right: .750rem;
