@@ -1,10 +1,8 @@
 <h1> 🚀 Desafio prático - App de lista de compras</h1>
 
-<p align="center">
-  <img alt="" src="./assets/imagem1.png">
-  <img alt="" src="./assets/imagem2.png">
-  <img alt="" src="./assets/imagem3.png">
-  <img alt="" src="./assets/imagem4.png">
+<p class="lista-imagens" align="center">
+  <img alt="" src="./assets/imagem1.png" width="815" height="437">  
+  <img alt="" src="./assets/imagem3.png" width="815" height="702">
 </p>
 
 ## ✨ Tecnologias
