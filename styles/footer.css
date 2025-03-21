@@ -25,7 +25,7 @@ footer {
     position: relative;
     width: 100%;
 
-    .circle-icon {
+    & .circle-icon {
         width: 1rem;
         height: 1rem;
 
@@ -36,7 +36,7 @@ footer {
         top: 10%;
     }
 
-    .delete-icon {
+    & .delete-icon {
         width: 1.2rem;
         height: 1.2rem;
 
